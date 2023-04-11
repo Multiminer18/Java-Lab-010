@@ -64,4 +64,7 @@ public class WeatherStation {
         this.pressure = WeatherStation.hPaToInHG(main.get("pressure").getAsFloat());
         notifyDisplays();
     }
+
+    public void registerObserver(CurrentConditions.currentConditions currentConditions) {
+    }
 }
